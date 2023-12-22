@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  width:80%;
+  height:80%;
+  font-family: 'Ubuntu,sans-serif';
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  height:100vh;
+  overflow: hidden;
+  margin:0;
+  position:absolute;
+}
+.bg{
+background:url(../image/benefits-of-working-from-home.jpg);
+
+top:100px;
+left:100px;
+width:100%;
+height:20%;
+ z-index: 0;
+ filter:blur(0px);
+ padding: 20%;
+ margin:5%;
+ position:absolute;
+
+}
+.loading-text{
+ font-size: 50px;
+ color:rgb(23, 23, 46);
+
+
+}

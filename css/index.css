@@ -1,0 +1,172 @@
+body{
+  background-image: url('../image/bbb.png');
+  margin:0;
+
+  background-size: cover; 
+  background-position: center; 
+ 
+  width: 100%;
+  height: 400px; 
+}
+.logo{border-radius: 50%;
+  width:5%;
+ height:25%;
+ margin :0 13%;}
+.logo:hover {
+     transform: scale(1.2); 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header img{
+    width:15%;
+    height:15%;
+    border-radius:30%;
+}
+header img:hover{
+    width:20%;
+    height:20%;
+   
+}
+
+
+
+ul {
+     width:100%;
+    position:fixed;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #e9e7e7;
+}
+
+li {
+    margin: 0 30px;
+
+}
+
+.nav {
+  text-decoration: none;
+  color:rgb(31, 29, 29);
+  padding:  10px 12px;
+  font-size: larger;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav:hover {
+  background-color: rgba(32, 175, 210, 0.604);
+  font-size: 23px;
+
+}
+
+header {
+    text-align: center;
+  
+    background-color: rgba(155, 178, 181, 0.604);
+    padding: 20px;
+    margin-left: 9%;
+    margin-right: 9%;
+    border-radius:3.5%;
+
+  }
+  header:hover{
+    background-color: rgba(177, 206, 209, 0.604);
+  }
+  
+  .nom {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(225, 5, 90)606;
+  }
+  
+  .position {
+    font-size: 18px;
+    color: #555;
+  }
+  
+
+  .intro {
+    padding: 20px;
+
+    margin-top: 20px;
+    
+  }
+  
+  
+  .intro p {
+    font-size: 25px;
+    line-height: 1.5;
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    
+  }
+ 
+ 
+.images img {
+    max-width: 70%;
+    max-height: 70%;
+    height: auto;
+    border-radius: 40%;
+    transition: all 0.3s ease; 
+  }
+  
+  
+  .images img:hover {
+    max-width: 80%;
+    max-height: 80%;
+    border-radius: 20%;
+     cursor: pointer;}
+
+.images p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #a7074a;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify; 
+    margin:10px;
+    font-size: larger;
+    padding-right: 20%;
+  }
+  .images p:hover{
+    font-size: 20px;
+    line-height: 2;
+   
+  }
+  
+.butt {
+  
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    background-color: #3498db; 
+    color: #fff; 
+    border-radius: 5px;
+    cursor: pointer; 
+    outline: none;
+  }
+  
+
+  .butt:hover {
+    background-color: #2980b9;
+  }
+  .container{ 
+    padding-top: 3%;
+  }
+  .conttt{  width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}
+ 
+  
+  
+ 
+ 
+  
+  
